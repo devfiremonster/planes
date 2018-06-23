@@ -35,7 +35,7 @@ public class Score extends PolygonSprite {
         paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
         //canvas.drawText(FUEL_TEXT, 10, 40, paint);
         //canvas.drawText(bounds.width() + "," + bounds.height(), 0, 40, paint);
-        canvas.drawText(SCORE_TEXT, x, y, paint);
+        canvas.drawText(SCORE_TEXT + ": " + score, x, y, paint);
         //canvas.drawText(":" + fuel, GAP, bounds.height()+GAP, paint);
 
 

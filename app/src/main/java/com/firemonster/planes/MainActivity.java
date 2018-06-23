@@ -282,6 +282,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                     plane.speedY = Plane.MAX_SPEED_Y;
                 }
 
+                // Update score
+                gameBoard.score.score++;
+
                 // Update locations
                 plane.y += plane.speedY;
                 for (Sprite sprite : gameBoard.sprites) {
